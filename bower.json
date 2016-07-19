@@ -1,0 +1,21 @@
+{
+  "name": "arduino-9axis-threejs",
+  "version": "0.0.1",
+  "description": "arduino-9axis-threejs",
+  "authors": [
+    "yoppyi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "threejs": "r71",
+    "jquery": "2.1.4",
+    "socket.io-client" : "1.3.6"
+  }
+}
