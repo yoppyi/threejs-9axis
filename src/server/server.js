@@ -54,7 +54,7 @@ http.createServer(function(request, response) {
 console.log('Server running at http://localhost:' + port);
 
 // arduinoからのシリアル通信待ち受け
-var sp = new serialport.SerialPort(serialPortName, {
+var sp = new serialport(serialPortName, {
     baudRate : 9600,
     dataBits : 8,
     parity : 'none',
